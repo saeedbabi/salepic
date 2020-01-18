@@ -1,0 +1,219 @@
+@font-face {
+    font-family: 'photographer';
+    src:  url('../fonts/font-icons/photographer.eot?wqjylf');
+    src:  url('../fonts/font-icons/photographer.eot?wqjylf#iefix') format('embedded-opentype'),
+    url('../fonts/font-icons/photographer.ttf?wqjylf') format('truetype'),
+    url('../fonts/font-icons/photographer.woff?wqjylf') format('woff'),
+    url('../fonts/font-icons/photographer.svg?wqjylf#photographer') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icn {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'photographer' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Enable Ligatures ================ */
+    letter-spacing: 0;
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    font-feature-settings: "liga";
+    -webkit-font-variant-ligatures: discretionary-ligatures;
+    font-variant-ligatures: discretionary-ligatures;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.camera-icn:before {
+    content: "\e900";
+}
+.camera-shutter-icn:before {
+    content: "\e901";
+}
+.cloud-storage-download-icn:before {
+    content: "\e902";
+}
+.comment-icn:before {
+    content: "\e903";
+     
+}
+.contact-icn:before {
+    content: "\e904";
+}
+.delete-icn:before {
+    content: "\e905";
+}
+.download-icn:before {
+    content: "\e906";
+}
+.edit-document-icn:before {
+    content: "\e907";
+}
+.eye-icn:before {
+    content: "\e908";
+     
+}
+.eyes-star-icn:before {
+    content: "\e909";
+}
+.facebook-icn:before {
+    content: "\e90a";
+}
+.fall-icn:before {
+    content: "\e90b";
+     
+}
+.garbage-icn:before {
+    content: "\e90c";
+}
+.inspire-icn:before {
+    content: "\e90d";
+     
+}
+.instagram-icn:before {
+    content: "\e90e";
+}
+.keyboard-left-icn:before {
+    content: "\e90f";
+}
+.keyboard-right-icn:before {
+    content: "\e910";
+}
+.like-icn:before {
+    content: "\e911";
+     
+}
+.linkedin-icn:before {
+    content: "\e912";
+}
+.login-icn:before {
+    content: "\e913";
+}
+.logout-icn:before {
+    content: "\e914";
+}
+.mail-icn:before {
+    content: "\e915";
+}
+.masks-icn:before {
+    content: "\e916";
+     
+}
+.mouse-wheel-icn:before {
+    content: "\e917";
+}
+.music-icn:before {
+    content: "\e918";
+     
+}
+.nature-icn:before {
+    content: "\e919";
+     
+}
+.new-icn:before {
+    content: "\e91a";
+     
+}
+.password-icn:before {
+    content: "\e91b";
+}
+.pinterest-icn:before {
+    content: "\e91c";
+}
+.popular-eye-icn:before {
+    content: "\e91d";
+     
+}
+.search-icn:before {
+    content: "\e91e";
+}
+.seasons-icn:before {
+    content: "\e91f";
+     
+}
+.sport-icn:before {
+    content: "\e920";
+     
+}
+.spring-icn:before {
+    content: "\e921";
+     
+}
+.summer-icn:before {
+    content: "\e922";
+     
+}
+.telegram-icn:before {
+    content: "\e923";
+}
+.telephone-icn:before {
+    content: "\e924";
+}
+.twitter-icn:before {
+    content: "\e925";
+}
+.upload-photo-icn:before {
+    content: "\e926";
+}
+.winter-icn:before {
+    content: "\e927";
+     
+}
+.mobile-icn:before {
+    content: "\e928";
+}
+.caret-left2-icn:before {
+    content: "\e929";
+}
+.caret-right2-icn:before {
+    content: "\e92a";
+}
+.caret-up2-icn:before {
+    content: "\e931";
+}
+.caret-down2-icn:before {
+    content: "\e932";
+}
+.finger-up2-icn:before {
+    content: "\e933";
+}
+.printer-icn:before {
+    content: "\e934";
+}
+.about-us-icn:before {
+    content: "\e935";
+}
+.address-icn:before {
+    content: "\e936";
+}
+.apartment-icn:before {
+    content: "\e937";
+}
+.caret-right-icn:before {
+    content: "\e92b";
+}
+.caret-up-icn:before {
+    content: "\e92c";
+}
+.caret-down-icn:before {
+    content: "\e92d";
+}
+.finger-up-icn:before {
+    content: "\e92e";
+}
+.caret-left-icn:before {
+    content: "\e92f";
+}
+.office-icn:before {
+    content: "\e930";
+}

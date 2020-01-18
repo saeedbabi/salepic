@@ -1,0 +1,31 @@
+/******************************************************************************/
+.flash-messages {
+    float: left;
+      position:fixed;
+      left:30px;
+      bottom:185px;
+    }
+  
+    .flash-message{
+    background:#fff;
+    padding:10px 20px;
+    margin-top:7px;
+    border-radius:5px;
+  }
+  
+  .flash-message.flash-info{
+    background: blue;
+    color:#fff;
+  }
+  
+  .flash-message.flash-error{
+    background:red;
+    color:#fff;
+  }
+  
+  .flash-message.flash-success{
+    background:green;
+    color:#fff;
+  }
+  
+   /******************************************************************************/

@@ -1,0 +1,20 @@
+{
+    "name": "se7en/salepic.test",
+    "authors": [
+        {
+            "name": "saeed babee",
+            "email": "saeid2230@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^6.8",
+        "kavenegar/php": "^1.2",
+        "wixel/gump": "^1.5",
+        "phpmailer/phpmailer": "^6.1"
+    },
+    "autoload": {
+        "psr-4":{
+            "App\\":"App/"
+        }
+    }
+}

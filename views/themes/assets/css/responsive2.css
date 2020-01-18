@@ -1,0 +1,234 @@
+/******************************************************************************/
+/*                                                                            */
+/*  menu navigation bar                                                       */
+/*                                                                            */
+/******************************************************************************/
+
+@media (max-width: 1260px) {
+    .navbar-nav {
+        /*margin-top: 0;*/
+        margin : 0;
+    }
+    .navbar-nav > li > a{
+        padding: 15px 15px;
+    }
+}
+/******************************************************************************/
+/*                                                                            */
+/*  end menu navigation bar                                                   */
+/*                                                                            */
+/******************************************************************************/
+
+/******************************************************************************/
+/*                                                                            */
+/*  index2                                                                    */
+/*                                                                            */
+/******************************************************************************/
+@media (max-width: 1050px) {
+    figure.cover-top figcaption::before{
+        left: -140px;
+    }
+    figure.cover-top p{
+        left: -35px;
+    }
+    figure.cover-bot figcaption::before{
+        right: -140px;
+    }
+    figure.cover-bot p{
+        right: -35px;
+    }
+}
+
+@media (max-width: 720px){
+    #down-page-bg .flex-row{
+        justify-content: space-evenly;
+    }
+    .covers{
+        min-height:auto;
+    }
+}
+
+@media (max-width: 670px) {
+    #search-main-wrapper{
+        width: 90%;
+    }
+    #search-main-wrapper .select-wrapper,.select2-container--default .select2-selection--single .select2-selection__rendered{
+        width: 10rem;
+    }
+    #search-main-wrapper .search-icn{
+        left:18px;
+    }
+    #popular-items .head-row h1, #collection .head-row h1, #photographer .head-row h1{
+        background-color: transparent;
+    }
+    .covers .grid .cover-top h2, .covers .grid .cover-bot h2{
+        font-size: 18px;
+    }
+    figure.cover-top p{
+        font-size:12px;
+        left:-15px;
+    }
+    figure.cover-bot p{
+        font-size:12px;
+        right:-27px;
+    }
+    #collection .covers .grid{
+        width: 90%;
+        float: none;
+        margin:0 auto;
+    }
+}
+@media (max-width: 600px) {
+    #search-main-wrapper .select-wrapper, .select2-container--default .select2-selection--single .select2-selection__rendered{
+        width: 9rem;
+    }
+    figure.cover-top figcaption::before{
+        width: 260px;
+        height: 260px;
+        opacity: 1;
+        -webkit-transform: scale3d(1,1,1);
+        transform: scale3d(1,1,1);
+    }
+    figure.cover-bot figcaption::before{
+        width: 260px;
+        height: 260px;
+        opacity: 1;
+        -webkit-transform: scale3d(1,1,1);
+        transform: scale3d(1,1,1);
+    }
+    figure.cover-top p {
+        font-size: 10px;
+        left: -39px;
+        opacity: 1;
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+    figure.cover-bot p {
+        font-size: 10px;
+        right: -52px;
+        opacity: 1;
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+}
+@media (max-width: 550px) {
+    #search-main-wrapper #search-main{
+        width: 67%;
+        font-size:15px;
+    }
+    #search-main-wrapper .search-icn{
+        left: 12px;
+    }
+    #week-best-title{
+        font-size:24px;
+    }
+    #main-nav .contact-us{
+        right:95px;
+    }
+    #main-nav .about-us{
+        right: 15px;
+    }
+    #main-nav .quick-sign-in-li{
+        left:5px;
+    }
+    #main-nav .quick-sign-up-li{
+        left: 50px;
+    }
+    #main-nav .about{
+        font-size: 12px;
+    }
+    #down-page-bg .popular-eye-icn{
+        display: none;
+    }
+    .flex-row .cat-item-wrapper{
+        margin:3px;
+    }
+}
+
+@media (max-width: 470px) {
+    #search-main-wrapper #search-main{
+        width: 65%;
+    }
+    .about .txt{
+        display: none;
+    }
+    #main-nav .about{
+        font-size:20px;
+    }
+    #main-nav a .icn{
+        right: 0;
+    }
+    #main-nav .contact-us{
+        right:50px;
+    }
+    #main-nav a .fa{
+        font-size:19px;
+    }
+}
+@media (max-width: 450px) {
+    #search-main-wrapper{
+        overflow: hidden;
+    }
+    .select-wrapper{
+        display: none !important;
+    }
+    #search-main-wrapper #search-main{
+        width: 85%;
+        border-left:none;
+        font-size:12px;
+    }
+    .search-icon-wrapper{
+        width: 57px;
+        background: #16314c;
+        color: #fff;
+    }
+    #search-main-wrapper .search-icn{
+        color: #fff;
+    }
+    #main-nav .navbar-brand{
+        margin-right: -10px;
+    }
+    figure.cover-top figcaption::before{
+        width: 300px;
+    }
+    figure.cover-bot figcaption::before{
+        width: 300px;
+    }
+    figure.cover-top p{
+        left: -15px;
+    }
+    figure.cover-bot p{
+        right: -30px;
+    }
+}
+@media (max-width: 1180px) {
+    .right-animate-1, .right-animate-2{
+        display: none !important;
+    }
+}
+/******************************************************************************/
+/*                                                                            */
+/*  end index2                                                                */
+/*                                                                            */
+/******************************************************************************/
+
+/******************************************************************************/
+/*                                                                            */
+/*  contact                                                                   */
+/*                                                                            */
+/******************************************************************************/
+@media (max-width: 991px) {
+    .content-container>div{
+        padding-right: 20px;
+    }
+}
+@media (max-width: 420px) {
+    .contact-info .content-container .col-xs-6{
+        width: 100%;
+    }
+}
+/******************************************************************************/
+/*                                                                            */
+/*  end contact                                                               */
+/*                                                                            */
+/******************************************************************************/
